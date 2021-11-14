@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- 구글 폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>상품 판매 페이지</title>
+
+    <style>
+      .wrap {
+        width: 700px;
+        margin: 10px auto;
+        padding: 10px;
+      }
+
+      .box {
+        width: 500px;
+        margin: 30px auto;
+      }
+    </style>
+
+    <script></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <img
+        src="https://cdn.pixabay.com/photo/2020/04/19/11/52/drink-5063295_960_720.jpg"
+        class="img-fluid"
+        alt="Responsive image"
+      />
+
+      <div class="box">
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <h4>상품제목</h4>
+          </div>
+          <div class="col-auto">
+            <span> 10000원 / 1EA </span>
+          </div>
+        </div>
+        <div>
+          <p>
+            Quickly build an effective pricing table for your potential
+            customers with this Bootstrap example. It's built with default
+            Bootstrap components and utilities with little customization.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="mb-3">
+          <h4>주문하기</h4>
+          <label for="exampleInputEmail1" class="form-label">주문자 성함</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">수량</label>
+          <select class="custom-select d-block w-100" id="state" required>
+            <option value="">Choose...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+          <div class="invalid-feedback">Please provide a valid state.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">주소</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">주문하기</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
